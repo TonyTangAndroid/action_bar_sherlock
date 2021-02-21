@@ -1,0 +1,4 @@
+include ':action_bar'
+include ':demo'
+//include ':app'
+rootProject.name = "ActionBarSherlock"

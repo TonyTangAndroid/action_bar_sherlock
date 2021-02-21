@@ -1,0 +1,23 @@
+apply plugin: "com.android.library"
+
+android {
+    //noinspection GradleCompatible
+    compileSdkVersion 18
+    buildToolsVersion "18.1.1"
+
+    defaultConfig {
+        minSdkVersion 4
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 18
+        versionCode 440
+        versionName "4.4.0"
+    }
+}
+
+dependencies {
+    api 'com.android.support:support-v4:18.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    //noinspection GradleDependency
+    testImplementation "org.robolectric:robolectric:3.0"
+    testImplementation "com.google.truth:truth:1.1.2"
+}
